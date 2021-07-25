@@ -11,12 +11,8 @@ body{
     position: absolute;
     float: left;
     top: 0%;
-    left: 36%;
-    transform: translate(-0%,-50%)
-}
-
-div, section, input{
-    box-sizing: border-box
+    right: 50%;
+    transform: translate(50%,-50%)
 }
 
 .wrap{
@@ -29,7 +25,7 @@ div, section, input{
 }
 
 .formwrap{
-    width: 480px;
+    width: 30%;
     background-color: #fff;
     padding: 100px 40px;
     border-radius: 20px;
@@ -133,23 +129,14 @@ div, section, input{
 @media (min-width: 1200px){
     
     .formwrap{
-        width: 480px;
+        width: 40%;
     }
 
 }
 
-@media (min-width: 992px) and (max-width:1199px){
+@media (min-width: 360px) and (max-width:1199px){
     
     .formwrap{
-        width: 480px;
+        width: 70%;
     }
-
-}
-
-@media (min-width: 360px) and (max-width:992px){
-    
-    .formwrap{
-        width: 80%;
-        height: 80%;
-
 }
