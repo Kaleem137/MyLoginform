@@ -1,4 +1,6 @@
-*{margin: 0; padding: 0;}
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;}
 
 body{
     font-family: sans-serif;
@@ -7,8 +9,10 @@ body{
 
 .Locimg{
     position: absolute;
-    top: -70px;
-    left: 172px;
+    float: left;
+    top: 0%;
+    left: 36%;
+    transform: translate(-0%,-50%)
 }
 
 div, section, input{
@@ -19,8 +23,9 @@ div, section, input{
     width: 100%;
     height: 100vh;
     background-image: url(images/bg.png);
-    background-size: 100%;
+    background-size:cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .formwrap{
@@ -99,17 +104,15 @@ div, section, input{
 
 
 .formwrap button:hover{
-    color: #fff;
     background: #03638F;
+    cursor: pointer;
 }
 
 .formwrap button.fb:hover{
-    color: #fff;
     background: #1B4496;
 }
 
 .formwrap button.google:hover{
-    color: #fff;
     background: #B91C0E;
 }
 
@@ -127,8 +130,26 @@ div, section, input{
 }
 
 
+@media (min-width: 1200px){
+    
+    .formwrap{
+        width: 480px;
+    }
 
+}
 
+@media (min-width: 992px) and (max-width:1199px){
+    
+    .formwrap{
+        width: 480px;
+    }
 
+}
 
+@media (min-width: 360px) and (max-width:992px){
+    
+    .formwrap{
+        width: 80%;
+        height: 80%;
 
+}
