@@ -23,6 +23,12 @@ body{
     background-repeat: no-repeat;
 }
 
+div.formawrap{
+    display: flex;
+}
+
+
+
 .formwrap{
     width: 30%;
     background-color: #fff;
@@ -48,7 +54,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 0px
 }
 
 .formwrap input{
@@ -73,28 +79,40 @@ body{
     border: 0;
 }
 
-.formwrap button.fb{
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #fff;
-    background: #4267B2;
-    padding: 10px 15px;
-    width: 100%;
-    border-radius: 6px;
-    border: 0;
-    text-align: left;
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    flex-grow: 1 1 0;
 }
 
-.formwrap button.google{
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #fff;
-    background: #DB4437;
-    padding: 10px 15px;
-    width: 100%;
-    border-radius: 6px;
-    border: 0;
-    text-align: left;
+nav div.fb{
+    background: url("images/fb.png") no-repeat center;
+    text-indent: -10000px;
+    padding: 10px 90px 50px 0px;
+    opacity: 0.9;
+
+}
+
+nav div.tw{
+    background: url("images/tw.png") no-repeat center;
+    text-indent: -10000px;
+    padding: 10px 90px 50px 0px;
+    opacity: 0.9;
+
+
+}
+
+nav div.google{
+    background: url("images/google.png") no-repeat center;
+    text-indent: -10000px;
+    padding: 10px 90px 50px 0px;    opacity: 0.9;
+
+}
+
+nav div:hover{
+    opacity: 1;   
 }
 
 
@@ -103,20 +121,22 @@ body{
     cursor: pointer;
 }
 
-.formwrap button.fb:hover{
-    background: #1B4496;
-}
-
-.formwrap button.google:hover{
-    background: #B91C0E;
-}
-
 .formwrap a#password{
     color: #707070;
     font-size: 18px;
     text-align: center;
     display: block;
     text-decoration: none;
+}
+
+section{
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: verdana;
+    margin-bottom: 10px;
 }
 
 .formwrap a{
@@ -137,7 +157,7 @@ body{
     
     .formwrap{
         width: 90%;
-        height: 440px;
+        height: 430px;
     }
 }
 
