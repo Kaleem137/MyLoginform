@@ -45,6 +45,21 @@ div.formawrap{
     margin-bottom: 10px
 }
 
+.formwrap h2{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 20px 0 20px 0; 
+}
+
+.formwrap h2 span { 
+    background:#fff;
+    color: #6D6D6D;
+    text-transform: uppercase;
+    padding:0 10px; 
+}
+
 .formwrap input{
     width: 100%;
     border-radius: 6px;
@@ -169,3 +184,6 @@ hr{
         height: 500px;
     }
 }
+
+
+
