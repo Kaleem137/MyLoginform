@@ -7,11 +7,11 @@ body{
     font-size: 100%;
 }
 
-.Locimg{
+img.Locimg{
     position: absolute;
     top: 0%;
     right: 50%;
-    transform: translate(50%,-50%)
+    transform: translate(50%,-50%);
 }
 
 div.wrap{
@@ -23,8 +23,6 @@ div.wrap{
 div.formawrap{
     display: flex;
 }
-
-
 
 .formwrap{
     width: 30%;
@@ -91,27 +89,26 @@ nav a{
 }
 
 nav div.fb{
-    background: url("images/fb.png") no-repeat center;
+    background: url("images/fb.svg") no-repeat center;
+    background-size: 160%;
     text-indent: -10000px;
-    padding: 10px 90px 50px 0px;
-    opacity: 0.9;
-
+    padding: 10px 100px 50px 0px;
+    opacity: 0.8;
 }
 
 nav div.tw{
-    background: url("images/tw.png") no-repeat center;
+    background: url("images/tw.svg") no-repeat center;
+    background-size: 175%;
     text-indent: -10000px;
     padding: 10px 90px 50px 0px;
-    opacity: 0.9;
-
-
+    opacity: 0.8;
 }
 
 nav div.google{
-    background: url("images/google.png") no-repeat center;
+    background: url("images/google.svg") no-repeat center;
+    background-size: 175%;
     text-indent: -10000px;
     padding: 10px 90px 50px 0px;   opacity: 0.8;
-
 }
 
 nav div:hover{
@@ -184,6 +181,4 @@ hr{
         height: 500px;
     }
 }
-
-
 
